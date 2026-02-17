@@ -1,22 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kaizen OS</title>
-</head>
-<body>
-    <h1>Kaizen OS</h1>
-    <p>Creator Workflow Platform</p>
-    
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li>Kaizen OS (In Progress)</li>
-            <li>Portfolio Website</li>
-        </ul>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="dashboard-title">Kaizen OS</h1>
+    <p class="dashboard-subtitle">
+      Hi, Peter 👋 <span>Here’s your week at a glance</span>
+    </p>
+
+    <section class="shoot-card">
+      <header>
+        <h2>TODO</h2>
+        <button type="button">+</button>
+      </header>
+
+      <ul class="shoots">
+        <li class="shoot-item">
+          <strong class="shoot-name">EG6 Walkaround</strong>
+          <p class="shoot-meta">
+            <strong class="label">Platform:</strong>
+            <span class="platform">TikTok</span>
+            <strong class="label">Due:</strong>
+            <span class="due-date">Sun, Jan 11</span>
+            <span class="priority">HIGH</span>
+          </p>
+
+          <label class="shoot-action">
+            <input type="checkbox" data-id="eg6-walkaround" />
+            Mark as shot
+          </label>
+        </li>
+
+        <li class="shoot-item">
+          <strong class="shoot-name">EG6 Walkaround</strong>
+          <p class="shoot-meta">
+            <strong class="label">Platform:</strong>
+            <span class="platform">TikTok</span>
+            <strong class="label">Due:</strong>
+            <span class="due-date">Sun, Jan 11</span>
+            <span class="priority">HIGH</span>
+          </p>
+
+          <label class="shoot-action">
+            <input type="checkbox" />
+            Mark as shot
+          </label>
+        </li>
+
+        <li class="shoot-item">
+          <strong class="shoot-name">EG6 Walkaround</strong>
+          <p class="shoot-meta">
+            <strong class="label">Platform:</strong>
+            <span class="platform">TikTok</span>
+            <strong class="label">Due:</strong>
+            <span class="due-date">Sun, Jan 11</span>
+            <span class="priority">HIGH</span>
+          </p>
+
+          <label class="shoot-action">
+            <input type="checkbox" />
+            Mark as shot
+          </label>
+        </li>
+      </ul>
     </section>
 
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <section class="performance-card">
+      <h2>Performance Snapshot (Last 7 days)</h2>
+      <div class="performance-instagram">
+        <h3 class="subtitles">Instagram</h3>
+        <p class="views">62k Views</p>
+        <p class="percentage">↑15%</p>
+      </div>
 
-</body>
+      <div class="performance-tiktok">
+        <h3 class="subtitles">Tiktok</h3>
+        <p class="views">152k Views</p>
+        <p class="percentage">↑52%</p>
+      </div>
+
+      <div class="performance-youtube">
+        <h3 class="subtitles">Youtube</h3>
+        <p class="views">523k Views</p>
+        <p class="percentage">↑152%</p>
+      </div>
+
+      <div class="top-post">
+        <h3 class="top-weekly">Top Post This Week</h3>
+        <p class="subtitles">EG6 Flybuy - Winton</p>
+        <p class="subtitles">Youtube</p>
+        <p class="views">523k Views</p>
+      </div>
+    </section>
+
+    <section class="pipeline-card">
+      <h2>Content Pipeline</h2>
+
+      <div class="pipeline-ideas">
+        <h3 class="subtitles">Ideas</h3>
+        <p class="ideas">5</p>
+      </div>
+
+      <div class="pipeline-drafts">
+        <h3 class="subtitles">Drafts</h3>
+        <p class="drafts">5</p>
+      </div>
+
+      <div class="pipeline-scheduled">
+        <h3 class="subtitles">Scheduled</h3>
+        <p class="scheduled">5</p>
+      </div>
+
+      <div class="pipeline-posted">
+        <h3 class="subtitles">Posted</h3>
+        <p class="posted">5</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Upcoming Posts</h2>
+      <div class="calender-mon">
+        <h3 class="subtitles">Monday</h3>
+      </div>
+    </section>
+  </body>
+  <script src="app.js"></script>
 </html>
